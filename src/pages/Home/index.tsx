@@ -1,9 +1,11 @@
 import { Text, View } from "react-native"
 
+import { Container } from './styled';
+
 export const Home = () => {
     return (
-        <View>
+        <Container>
             <Text>Tela Home</Text>
-        </View>
+        </Container>
     )
 }
