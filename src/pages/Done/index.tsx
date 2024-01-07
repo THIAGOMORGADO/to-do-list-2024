@@ -1,9 +1,11 @@
 import { Text, View } from "react-native"
+import { Container } from "./styled"
+
 
 export const Done = () => {
     return (
-        <View>
+        <Container>
             <Text>Done</Text>
-        </View>
+        </Container>
     )
 }
