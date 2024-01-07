@@ -1,10 +1,14 @@
-import { Container, Title } from "./styled"
+import { Container, Logo, Indicator } from "./styled"
+
+
+import logoMark from '../../Image/Logo.png'
 
 
 export const SpashScreen = () => {
     return (
         <Container>
-            <Title>To-do-List</Title>
+            <Logo source={logoMark} />
+            <Indicator size={"large"} color="#4EA8DE" />
         </Container>
     )
 }

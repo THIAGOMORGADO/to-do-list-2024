@@ -18,11 +18,16 @@ export const AppRooutes = () => {
 
             screenOptions={{
                 tabBarActiveTintColor: '#fff',
-                headerShown: false,
+
                 tabBarStyle: {
                     backgroundColor: '#222',
 
-                }
+                },
+                headerStyle: {
+                    backgroundColor: '#222',
+
+                },
+                headerTintColor: '#fff'
             }}
         >
             <Tabs.Screen

@@ -6,4 +6,9 @@ export const Container = styled.View`
     justify-content: center;
     flex: 1;
 `;
-export const Title = styled.Text``
+export const Logo = styled.Image``
+
+export const Indicator = styled.ActivityIndicator`
+    margin-top: 40px;
+
+`

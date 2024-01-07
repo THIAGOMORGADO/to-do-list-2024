@@ -3,10 +3,10 @@ import styled from 'styled-components/native';
 export const Container = styled.View`
   background-color: ${({theme}) => theme.colors.primary };
   flex: 1;
-  align-items: center;
+  
+`;
+export const TaskAddArea = styled.View`
   justify-content: center;
-`;
-export const Title = styled.Text`
-  color: #fff;
-  font-family: ${({theme}) => theme.fonts.bold};
-`;
+  flex-direction: row;
+  margin-top: 5%;
+`
