@@ -1,4 +1,6 @@
-import { DarkTheme, NavigationContainer } from "@react-navigation/native"
+
+
+import { NavigationContainer } from "@react-navigation/native"
 import { AppRooutes } from "./src/Routes";
 import { ThemeProvider } from "styled-components";
 
