@@ -1,11 +1,11 @@
 import { Text, View } from "react-native"
 
-import { Container } from './styled';
+import { Container, Title } from './styled';
 
 export const Home = () => {
     return (
         <Container>
-            <Text>Tela Home</Text>
+            <Title>Tela Home</Title>
         </Container>
     )
 }

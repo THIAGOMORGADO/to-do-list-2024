@@ -1,7 +1,11 @@
 
 export default {
     colors: {
-        primary: '#5636d3',
+        primary: '#333',
     },
-    fonts: {}
+    fonts: {
+       regular: 'Roboto_400Regular',
+       medium: "Roboto_500Medium",
+       bold: 'Roboto_700Bold',
+    }
 }
